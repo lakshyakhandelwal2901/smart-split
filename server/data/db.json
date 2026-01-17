@@ -1,0 +1,744 @@
+{
+  "users": [
+    {
+      "id": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "name": "lakshya khandelwal",
+      "email": "Lakshyakhandelwal2901@gmail.com",
+      "phone": "09314271247",
+      "password": "$2a$10$bwl4APEsCZAr5lSuzflvMe7dlao0NZRY/jnuZYD7/X8YvuYXkbF3e",
+      "createdAt": "2026-01-17T16:18:45.183Z",
+      "balance": 0
+    },
+    {
+      "id": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "name": "lakshya khandelwal",
+      "email": "Lakshyakhandelwal641@gmail.com",
+      "phone": "",
+      "password": "$2a$10$K2lcW4xyBXMtHJcMaHzvoeJbKBM78aNsgRNQ.iMkVlQGiv.25wqNG",
+      "createdAt": "2026-01-17T16:22:48.469Z",
+      "balance": 0
+    }
+  ],
+  "transactions": [
+    {
+      "id": "c286ca04-d274-4e90-ae19-08f9dc39f899",
+      "description": "lunch",
+      "amount": 1211,
+      "category": "food",
+      "paidBy": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "participants": [
+        {
+          "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+          "share": 605.5,
+          "settled": false
+        },
+        {
+          "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+          "share": 605.5,
+          "settled": false
+        }
+      ],
+      "groupId": null,
+      "type": "expense",
+      "date": "2026-01-17",
+      "createdAt": "2026-01-17T16:23:06.797Z",
+      "createdBy": "04cf3412-375a-4e47-870b-7278197c0dbf"
+    },
+    {
+      "id": "01e37e5b-5de0-47de-b1a3-261cddb25e6c",
+      "description": "lunch",
+      "amount": 12122112,
+      "category": "food",
+      "paidBy": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "participants": [
+        {
+          "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+          "share": 6061056,
+          "settled": false
+        },
+        {
+          "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+          "share": 6061056,
+          "settled": false
+        }
+      ],
+      "groupId": null,
+      "type": "expense",
+      "date": "2026-01-17",
+      "createdAt": "2026-01-17T16:33:39.918Z",
+      "createdBy": "90407072-c415-4cad-8dc2-bc86c92990e0"
+    },
+    {
+      "id": "a614d443-3707-4b9c-b6ae-79eac2e5279f",
+      "description": "asd",
+      "amount": 1231,
+      "category": "food",
+      "paidBy": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "participants": [
+        {
+          "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+          "share": 1231,
+          "settled": false
+        }
+      ],
+      "groupId": "a2a2039c-7260-4ee9-86bb-c69fef0600f2",
+      "type": "expense",
+      "date": "2026-01-17",
+      "createdAt": "2026-01-17T16:36:39.133Z",
+      "createdBy": "04cf3412-375a-4e47-870b-7278197c0dbf"
+    },
+    {
+      "id": "14f0cc93-8021-4d10-9f48-cf90376dde2a",
+      "description": "sa",
+      "amount": 1212,
+      "category": "food",
+      "paidBy": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "participants": [
+        {
+          "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+          "share": 606,
+          "settled": false
+        },
+        {
+          "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+          "share": 606,
+          "settled": false
+        }
+      ],
+      "groupId": "a2a2039c-7260-4ee9-86bb-c69fef0600f2",
+      "type": "expense",
+      "date": "2026-01-17",
+      "createdAt": "2026-01-17T16:37:09.034Z",
+      "createdBy": "04cf3412-375a-4e47-870b-7278197c0dbf"
+    },
+    {
+      "id": "b79df6f6-6765-4dbd-9f30-cddcba61d791",
+      "description": "Flipkart",
+      "amount": 3381,
+      "category": "groceries",
+      "paidBy": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "participants": [
+        {
+          "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+          "share": 3381,
+          "settled": true
+        }
+      ],
+      "groupId": null,
+      "type": "expense",
+      "date": "2026-01-16",
+      "createdAt": "2026-01-17T16:54:09.666Z",
+      "createdBy": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "bankTransactionId": "a636ecde-927e-4c5c-aecb-4d4b164f18f2"
+    },
+    {
+      "id": "aad2f041-9d78-41ae-be77-93f4351a7a38",
+      "description": "Big Bazaar",
+      "amount": 2681,
+      "category": "entertainment",
+      "paidBy": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "participants": [
+        {
+          "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+          "share": 1340.5,
+          "settled": true
+        },
+        {
+          "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+          "share": 1340.5,
+          "settled": false
+        }
+      ],
+      "groupId": null,
+      "type": "expense",
+      "date": "2026-01-08",
+      "createdAt": "2026-01-17T17:07:08.707Z",
+      "createdBy": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "bankTransactionId": "06d81fab-95d3-49e3-864b-1849bb6fc3e1"
+    },
+    {
+      "id": "f36f7eb3-5169-4731-b926-2b9efa4254f0",
+      "description": "Swiggy",
+      "amount": 4307,
+      "category": "food",
+      "paidBy": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "participants": [
+        {
+          "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+          "share": 2153.5,
+          "settled": true
+        },
+        {
+          "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+          "share": 2153.5,
+          "settled": false
+        }
+      ],
+      "groupId": null,
+      "type": "expense",
+      "date": "2026-01-07",
+      "createdAt": "2026-01-17T17:07:36.738Z",
+      "createdBy": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "bankTransactionId": "96c9e685-92c4-4d7a-a800-10cdfa5bc80c"
+    }
+  ],
+  "groups": [
+    {
+      "id": "a2a2039c-7260-4ee9-86bb-c69fef0600f2",
+      "name": "trip",
+      "description": "",
+      "members": [
+        {
+          "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+          "role": "admin",
+          "joinedAt": "2026-01-17T16:36:07.781Z"
+        },
+        {
+          "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+          "role": "member",
+          "joinedAt": "2026-01-17T16:36:20.444Z"
+        }
+      ],
+      "createdBy": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "createdAt": "2026-01-17T16:36:07.781Z"
+    }
+  ],
+  "settlements": [
+    {
+      "id": "c50d351d-46bd-4f5a-8008-e68481c0fc16",
+      "paidBy": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "paidTo": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "amount": 605.5,
+      "note": "",
+      "groupId": null,
+      "date": "2026-01-17T16:31:55.652Z",
+      "createdAt": "2026-01-17T16:31:55.652Z"
+    },
+    {
+      "id": "52fb16af-c996-4e2a-9665-8617dbeeaeeb",
+      "paidBy": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "paidTo": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "amount": 1211,
+      "note": "",
+      "groupId": null,
+      "date": "2026-01-17T16:31:59.491Z",
+      "createdAt": "2026-01-17T16:31:59.491Z"
+    },
+    {
+      "id": "213588c2-9e5c-48cd-861d-8e291470531a",
+      "paidBy": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "paidTo": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "amount": 6062267,
+      "note": "",
+      "groupId": null,
+      "date": "2026-01-17T16:34:13.902Z",
+      "createdAt": "2026-01-17T16:34:13.902Z"
+    },
+    {
+      "id": "5559d2dd-ad4d-4773-82f3-d84990a7468f",
+      "paidBy": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "paidTo": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "amount": 2100,
+      "note": "",
+      "groupId": null,
+      "date": "2026-01-17T17:08:32.290Z",
+      "createdAt": "2026-01-17T17:08:32.290Z"
+    }
+  ],
+  "invitations": [
+    {
+      "id": "bf3271d6-5d67-4da3-bcf8-ce03c5cce182",
+      "invitedBy": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "invitedByEmail": "Lakshyakhandelwal641@gmail.com",
+      "invitedByName": "lakshya khandelwal",
+      "email": "lakshyakhandelwal112@gmail.com",
+      "phone": "+919314271247",
+      "name": "lakshya khandelwal",
+      "userId": null,
+      "message": "ads",
+      "status": "pending",
+      "createdAt": "2026-01-17T16:37:49.924Z"
+    }
+  ],
+  "bankAccounts": [
+    {
+      "id": "459a55da-fb6c-4d77-870d-18da218a4a68",
+      "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "bankName": "SIB",
+      "accountNumber": "3132",
+      "accountType": "savings",
+      "ifsc": "HDFC000123",
+      "balance": 87881,
+      "isActive": true,
+      "connectedAt": "2026-01-17T16:54:02.241Z",
+      "lastSyncedAt": "2026-01-17T16:54:02.251Z"
+    },
+    {
+      "id": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "bankName": "SIB",
+      "accountNumber": "2321",
+      "accountType": "savings",
+      "ifsc": "",
+      "balance": 82800,
+      "isActive": true,
+      "connectedAt": "2026-01-17T17:09:15.300Z",
+      "lastSyncedAt": "2026-01-17T17:09:29.461Z"
+    }
+  ],
+  "bankTransactions": [
+    {
+      "id": "96c9e685-92c4-4d7a-a800-10cdfa5bc80c",
+      "accountId": "459a55da-fb6c-4d77-870d-18da218a4a68",
+      "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "type": "debit",
+      "amount": 4307,
+      "balance": 83574,
+      "description": "Swiggy",
+      "category": "food",
+      "date": "2026-01-07",
+      "timestamp": "2026-01-07T16:54:02.251Z",
+      "reference": "TXN17686688422510",
+      "status": "completed",
+      "isImported": true,
+      "expenseId": "f36f7eb3-5169-4731-b926-2b9efa4254f0"
+    },
+    {
+      "id": "929e47ce-7f74-4bed-8acf-4a88ee332a78",
+      "accountId": "459a55da-fb6c-4d77-870d-18da218a4a68",
+      "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "type": "debit",
+      "amount": 2545,
+      "balance": 85336,
+      "description": "Ola",
+      "category": "entertainment",
+      "date": "2025-12-25",
+      "timestamp": "2025-12-25T16:54:02.251Z",
+      "reference": "TXN17686688422511",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "ce179da8-598c-4eb9-b34c-becbb6bd6b84",
+      "accountId": "459a55da-fb6c-4d77-870d-18da218a4a68",
+      "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "type": "credit",
+      "amount": 1533,
+      "balance": 89414,
+      "description": "Transfer",
+      "category": "income",
+      "date": "2025-12-20",
+      "timestamp": "2025-12-20T16:54:02.251Z",
+      "reference": "TXN17686688422512",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "ef59c34d-cb04-410f-a9ca-b0b48426320f",
+      "accountId": "459a55da-fb6c-4d77-870d-18da218a4a68",
+      "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "type": "credit",
+      "amount": 3439,
+      "balance": 91320,
+      "description": "Transfer",
+      "category": "income",
+      "date": "2026-01-03",
+      "timestamp": "2026-01-03T16:54:02.251Z",
+      "reference": "TXN17686688422513",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "70e10f98-195b-4c6e-a031-40237ae9a550",
+      "accountId": "459a55da-fb6c-4d77-870d-18da218a4a68",
+      "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "type": "debit",
+      "amount": 436,
+      "balance": 87445,
+      "description": "Big Bazaar",
+      "category": "entertainment",
+      "date": "2026-01-02",
+      "timestamp": "2026-01-02T16:54:02.251Z",
+      "reference": "TXN17686688422514",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "a908bcc3-44a4-4899-8b52-eb530c0f1463",
+      "accountId": "459a55da-fb6c-4d77-870d-18da218a4a68",
+      "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "type": "debit",
+      "amount": 414,
+      "balance": 87467,
+      "description": "Ola",
+      "category": "entertainment",
+      "date": "2026-01-04",
+      "timestamp": "2026-01-04T16:54:02.251Z",
+      "reference": "TXN17686688422515",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "a636ecde-927e-4c5c-aecb-4d4b164f18f2",
+      "accountId": "459a55da-fb6c-4d77-870d-18da218a4a68",
+      "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "type": "debit",
+      "amount": 3381,
+      "balance": 84500,
+      "description": "Flipkart",
+      "category": "groceries",
+      "date": "2026-01-16",
+      "timestamp": "2026-01-16T16:54:02.251Z",
+      "reference": "TXN17686688422516",
+      "status": "completed",
+      "isImported": true,
+      "expenseId": "b79df6f6-6765-4dbd-9f30-cddcba61d791"
+    },
+    {
+      "id": "06d81fab-95d3-49e3-864b-1849bb6fc3e1",
+      "accountId": "459a55da-fb6c-4d77-870d-18da218a4a68",
+      "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "type": "debit",
+      "amount": 2681,
+      "balance": 85200,
+      "description": "Big Bazaar",
+      "category": "entertainment",
+      "date": "2026-01-08",
+      "timestamp": "2026-01-08T16:54:02.251Z",
+      "reference": "TXN17686688422517",
+      "status": "completed",
+      "isImported": true,
+      "expenseId": "aad2f041-9d78-41ae-be77-93f4351a7a38"
+    },
+    {
+      "id": "5cd97b3c-0dc6-4333-940b-c9c413fa8986",
+      "accountId": "459a55da-fb6c-4d77-870d-18da218a4a68",
+      "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "type": "debit",
+      "amount": 457,
+      "balance": 87424,
+      "description": "Big Bazaar",
+      "category": "entertainment",
+      "date": "2026-01-05",
+      "timestamp": "2026-01-05T16:54:02.251Z",
+      "reference": "TXN17686688422518",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "b80c7e7f-bc34-4267-98fa-51cbe0b2be64",
+      "accountId": "459a55da-fb6c-4d77-870d-18da218a4a68",
+      "userId": "04cf3412-375a-4e47-870b-7278197c0dbf",
+      "type": "debit",
+      "amount": 196,
+      "balance": 87685,
+      "description": "Flipkart",
+      "category": "food",
+      "date": "2026-01-05",
+      "timestamp": "2026-01-05T16:54:02.251Z",
+      "reference": "TXN17686688422519",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "b4b44421-529f-445b-8aa3-71e4100163cf",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 2231,
+      "balance": 80569,
+      "description": "Netflix",
+      "category": "groceries",
+      "date": "2026-01-17",
+      "timestamp": "2026-01-17T17:09:15.308Z",
+      "reference": "TXN17686697553080",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "c7cc3383-b09d-4131-9c0b-bd185828ee9d",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 1346,
+      "balance": 81454,
+      "description": "Uber",
+      "category": "food",
+      "date": "2026-01-02",
+      "timestamp": "2026-01-02T17:09:15.308Z",
+      "reference": "TXN17686697553081",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "abe64d76-6c33-45a4-bab1-0498e6eed927",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 3026,
+      "balance": 79774,
+      "description": "Big Bazaar",
+      "category": "other",
+      "date": "2025-12-21",
+      "timestamp": "2025-12-21T17:09:15.308Z",
+      "reference": "TXN17686697553082",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "e5a8e531-0890-46c9-87c7-54552f11d792",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 2629,
+      "balance": 80171,
+      "description": "Ola",
+      "category": "food",
+      "date": "2025-12-21",
+      "timestamp": "2025-12-21T17:09:15.308Z",
+      "reference": "TXN17686697553083",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "b8443522-aa9d-47dc-b9bb-7e35d4def405",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 3544,
+      "balance": 79256,
+      "description": "Swiggy",
+      "category": "shopping",
+      "date": "2026-01-07",
+      "timestamp": "2026-01-07T17:09:15.308Z",
+      "reference": "TXN17686697553084",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "dbaca2c6-113d-4bec-8cf4-19462074b2fa",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 867,
+      "balance": 81933,
+      "description": "Spotify",
+      "category": "other",
+      "date": "2026-01-01",
+      "timestamp": "2026-01-01T17:09:15.308Z",
+      "reference": "TXN17686697553095",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "12507b65-45a5-4919-9931-5d7b06106d7d",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 3417,
+      "balance": 79383,
+      "description": "Netflix",
+      "category": "transport",
+      "date": "2025-12-30",
+      "timestamp": "2025-12-30T17:09:15.309Z",
+      "reference": "TXN17686697553096",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "59157b16-c5da-428d-a015-54093e34f7b6",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 4919,
+      "balance": 77881,
+      "description": "Netflix",
+      "category": "entertainment",
+      "date": "2025-12-30",
+      "timestamp": "2025-12-30T17:09:15.309Z",
+      "reference": "TXN17686697553097",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "7cb6d537-c9af-47cd-b812-ad60d4660abf",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 1585,
+      "balance": 81215,
+      "description": "Uber",
+      "category": "other",
+      "date": "2026-01-08",
+      "timestamp": "2026-01-08T17:09:15.309Z",
+      "reference": "TXN17686697553098",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "771a5bd2-f8ac-431d-8127-ebf15d9cdac1",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 1731,
+      "balance": 81069,
+      "description": "Spotify",
+      "category": "shopping",
+      "date": "2025-12-23",
+      "timestamp": "2025-12-23T17:09:15.309Z",
+      "reference": "TXN17686697553099",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "4bf83c74-25bb-43ce-b673-96683642f27d",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "credit",
+      "amount": 2143,
+      "balance": 84943,
+      "description": "Transfer",
+      "category": "income",
+      "date": "2025-12-20",
+      "timestamp": "2025-12-20T17:09:29.460Z",
+      "reference": "TXN17686697694610",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "5aa84e51-3f47-4f2f-b110-b01539c67d33",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 1333,
+      "balance": 81467,
+      "description": "Netflix",
+      "category": "utilities",
+      "date": "2026-01-04",
+      "timestamp": "2026-01-04T17:09:29.461Z",
+      "reference": "TXN17686697694611",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "074051d6-451a-45e4-a0ae-c790e66c78a1",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 3337,
+      "balance": 79463,
+      "description": "Ola",
+      "category": "transport",
+      "date": "2026-01-16",
+      "timestamp": "2026-01-16T17:09:29.461Z",
+      "reference": "TXN17686697694612",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "311c7870-3375-490d-9184-577ec33067cf",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 1279,
+      "balance": 81521,
+      "description": "Netflix",
+      "category": "groceries",
+      "date": "2025-12-19",
+      "timestamp": "2025-12-19T17:09:29.461Z",
+      "reference": "TXN17686697694613",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "1f94cb76-57a4-4b89-96bf-8c86fd4ecd5c",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "credit",
+      "amount": 1287,
+      "balance": 84087,
+      "description": "Transfer",
+      "category": "income",
+      "date": "2026-01-08",
+      "timestamp": "2026-01-08T17:09:29.461Z",
+      "reference": "TXN17686697694614",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "34872bdc-4baa-45d7-834e-a42684e40f7d",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 2562,
+      "balance": 80238,
+      "description": "Spotify",
+      "category": "entertainment",
+      "date": "2025-12-19",
+      "timestamp": "2025-12-19T17:09:29.461Z",
+      "reference": "TXN17686697694615",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "75b56c86-b5d0-4ce6-bd45-fd7e2ea67ab8",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "credit",
+      "amount": 929,
+      "balance": 83729,
+      "description": "Transfer",
+      "category": "income",
+      "date": "2025-12-21",
+      "timestamp": "2025-12-21T17:09:29.461Z",
+      "reference": "TXN17686697694616",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "f9b6afcf-2878-4051-b856-84a997ebb031",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 4437,
+      "balance": 78363,
+      "description": "Big Bazaar",
+      "category": "groceries",
+      "date": "2026-01-11",
+      "timestamp": "2026-01-11T17:09:29.461Z",
+      "reference": "TXN17686697694617",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "5bbef058-c74c-492c-903a-bb79295aea75",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 1365,
+      "balance": 81435,
+      "description": "Netflix",
+      "category": "utilities",
+      "date": "2026-01-14",
+      "timestamp": "2026-01-14T17:09:29.461Z",
+      "reference": "TXN17686697694618",
+      "status": "completed",
+      "isImported": false
+    },
+    {
+      "id": "02f52771-4f68-466e-ba68-41bf380f641a",
+      "accountId": "20400a56-fb51-43d0-88ec-5be0ce1f3173",
+      "userId": "90407072-c415-4cad-8dc2-bc86c92990e0",
+      "type": "debit",
+      "amount": 4169,
+      "balance": 78631,
+      "description": "Zomato",
+      "category": "groceries",
+      "date": "2026-01-07",
+      "timestamp": "2026-01-07T17:09:29.461Z",
+      "reference": "TXN17686697694619",
+      "status": "completed",
+      "isImported": false
+    }
+  ]
+}
