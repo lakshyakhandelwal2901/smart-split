@@ -33,7 +33,7 @@ A comprehensive expense splitting and personal finance management application in
 
 1. **Clone or navigate to the project directory**
    ```bash
-   cd "d:\smart split"
+   gh repo clone lakshyakhandelwal2901/smart-split
    ```
 
 2. **Install backend dependencies**
