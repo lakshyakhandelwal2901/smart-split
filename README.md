@@ -1,6 +1,6 @@
 # Smart Split - Expense Splitting App
 
-A comprehensive expense splitting and personal finance management application inspired by Finanjo and Splitwise. Built with React, Node.js, and Express.
+A comprehensive expense splitting and personal finance management application inspired by Splitwise. Built with React, Node.js, and Express.
 
 ![Smart Split](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -229,15 +229,15 @@ This application uses a JSON file-based database located at `server/data/db.json
 
 ## 🎯 Key Features Comparison
 
-| Feature | Smart Split | Splitwise | Finanjo |
-|---------|-------------|-----------|---------|
-| Expense Splitting | ✅ | ✅ | ✅ |
-| Group Management | ✅ | ✅ | ✅ |
-| Balance Tracking | ✅ | ✅ | ✅ |
-| Bank Integration | ⏳ Planned | ❌ | ✅ |
-| WhatsApp Sharing | ⏳ Planned | ❌ | ✅ |
-| Multiple Currencies | ⏳ Planned | ✅ | ⏳ |
-| Mobile App | ⏳ Planned | ✅ | ✅ |
+| Feature | Smart Split | Splitwise | 
+|---------|-------------|-----------|
+| Expense Splitting | ✅ | ✅ | 
+| Group Management | ✅ | ✅ | 
+| Balance Tracking | ✅ | ✅ | 
+| Bank Integration | ⏳ Planned | ❌ | 
+| WhatsApp Sharing | ⏳ Planned | ❌ | 
+| Multiple Currencies | ⏳ Planned | ✅ | 
+| Mobile App | ⏳ Planned | ✅ | 
 
 ## 🚧 Future Enhancements
 
